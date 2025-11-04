@@ -1,7 +1,8 @@
 [project]
 name = "persian-date"
-version = "1.0.3"
+version = "1.0.5"
 description = "Get current date in Persian, Gregorian, or Hijri calendars"
+readme = "README.md"
 authors = [{name="bardianz", email="you@example.com"}]
 dependencies = []
 
