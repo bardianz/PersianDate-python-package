@@ -21,23 +21,20 @@ pip install persian-date
 
 ---
 
-📚 Classes
+## 📚 Classes
 
 The library provides three main classes, one for each calendar type:
 
-SolarDate
+| Class          | Description                  | Methods                                 |
+|----------------|-----------------------------|----------------------------------------|
+| `SolarDate`    | Persian (Solar Hijri) date  | `show_numeral()`, `show_char()`        |
+| `GregorianDate`| Gregorian date              | `show_numeral()`, `show_char()`        |
+| `HijriDate`    | Islamic (Hijri) date        | `show_numeral()`, `show_char()`        |
 
-GregorianDate
+**Methods:**
 
-HijriDate
-
-
-Each class contains two main methods:
-
-Method	Description
-
-show_numeral()	Returns the date in numeric format (e.g. 1404-08-13)
-show_char()	Returns the date in textual format (e.g. Tuesday - 2025 13 November)
+- `show_numeral()` → Returns the date in numeric format (e.g., `1404-08-13`)  
+- `show_char()` → Returns the date in textual format (e.g., `Tuesday - 2025 04 November`)
 
 
 
