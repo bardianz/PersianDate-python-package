@@ -1,0 +1,10 @@
+[project]
+name = "persian-date"
+version = "1.0.3"
+description = "Get current date in Persian, Gregorian, or Hijri calendars"
+authors = [{name="bardianz", email="you@example.com"}]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
