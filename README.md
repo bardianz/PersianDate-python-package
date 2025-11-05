@@ -5,7 +5,12 @@
 - **Solar Hijri (Persian)**
 - **Hijri (Islamic)**
 
-Unlike most libraries, PersianDate does **not** rely on any system clock or time server.  
+## 🧩 About this project
+
+A while ago, I needed a reliable way to get the Persian date on a remote server that didn’t support Solar Hijri calendars.
+Most libraries depended on the system clock or failed due to timezone issues, so I built a lightweight, dependency-free solution that fetches accurate dates directly from Time.ir.
+
+Unlike most libraries, PersianDate does **not** rely on any system clock or time server.
 Instead, it automatically scrapes the official [Time.ir](https://www.time.ir/) website to extract the current date directly from its HTML content.  
 This makes it accurate and timezone-independent as long as an internet connection is available.
 
